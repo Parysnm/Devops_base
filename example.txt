@@ -1,1 +1,2 @@
-Hello, World!
+ajout de exemple git add example.txt
+Modification dans la branche Exo2
