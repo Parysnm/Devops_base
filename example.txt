@@ -1,2 +1,3 @@
 ajout de exemple git add example.txt
 Modification dans la branche Exo2
+4. Pull Changes from GitHub
