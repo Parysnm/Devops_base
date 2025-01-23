@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/name/:name', (req, res) => {
-  res.render('hello', {name: req.params.name});
+  res.render('Devops Labs!', {name: req.params.name});
 });
 
 module.exports = app;
