@@ -5,13 +5,13 @@ describe('Test the app', () => {
   test('Get / should return Hello, World!', async () => {
     const response = await request(app).get('/');
     expect(response.statusCode).toBe(200);
-    expect(response.text).toBe('Hello, World!');
+    expect(response.text).toBe('DevOps Labs!');
   });
 
   test('Get /name/Bob should return Hello, Bob!', async () => {
     const response = await request(app).get('/name/Bob');
     expect(response.statusCode).toBe(200);
-    expect(response.text).toBe('Hello, Bob!');
+    expect(response.text).toBe('DevOps Labs!');
   });
 
   const maliciousUrl = '/name/%3Cscript%3Ealert("hi")%3C%2Fscript%3E';
